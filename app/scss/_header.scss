@@ -7,12 +7,7 @@ header#main-header {
     position: relative;
     .header-caption {
         font-family: 'Roboto', sans-serif;
-        position: absolute;
-        width: 100%;
-        left: 0;
-        top: 50%;
-        right: 0;
-        transform: translateY(-50%);
+        @include absolute-center;
         h1 {
             font-size: 4em;
             font-weight: 300;
