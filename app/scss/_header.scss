@@ -1,0 +1,24 @@
+header#main-header {
+    color: $white;
+    background-image: url(../img/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+    .header-caption {
+        font-family: 'Roboto', sans-serif;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        h1 {
+            font-size: 4em;
+            font-weight: 300;
+        }
+        h2 {
+            font-weight: 100;
+        }
+    }
+}

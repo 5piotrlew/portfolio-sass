@@ -1,0 +1,29 @@
+#main-nav {
+    
+    .navbar-header {
+        button {
+            p {
+                margin: 0;
+                color: $dark-green;
+                
+                &:hover {
+                    color: $black;
+                }
+            }
+        }
+    }
+    
+    #main-menu {
+        ul {
+            li {
+                a {
+                    color: $dark-green;
+                    
+                    &:hover {
+                        color: $black;
+                    }
+                }
+            }
+        }
+    }
+}

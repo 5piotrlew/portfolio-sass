@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
+}
+
+a {
+    transition: all .3s;
+}
+
+span {
+    color: green;
+    font-weight: 400;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+section {
+    padding: 30px 80px;
+}

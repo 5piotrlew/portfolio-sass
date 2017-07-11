@@ -1,0 +1,76 @@
+#contact {
+    background-color: $dark-color;
+    color: $white;
+    
+    .contact-data {
+        h2 {
+            font-size: 38px;
+        }
+        
+        address {
+            font-style: normal;
+            margin: 72px 0;
+            line-height: 25px;
+            
+            a {
+                color: $dark-green;
+            }
+        }
+        
+        .contact-social-icons {
+            a {
+               display: inline-block;
+                border: 1px solid $white;
+                color: $white;
+                width: 38px;
+                line-height: 38px;
+                text-align: center;
+                margin-right: 30px;
+                font-size: 22px; 
+                
+                &:hover {
+                    color: $dark-color;
+                    border: 1px solid $dark-color;
+                    background-color: $white;
+                }
+            }
+        }
+    
+    }
+    
+    .contact-form {
+        margin-top: 100px;
+        
+        form {
+            input, textarea{
+                width: 100%;
+                padding: 15px;
+                margin-bottom: 15px;
+                background-color: $form-color;
+                border: $form-color 0px;
+                color: $white;
+                
+                &:focus {
+                   background-color: $form-focus; 
+                }
+            }
+            
+            input[type="submit"] {
+                background-color: $green;
+                color: $white;
+                width: auto;
+                text-transform: uppercase;
+                font-weight: 600;
+                padding: 15px 30px;
+                float: right;
+                border: 1px $green solid;
+                
+                &:hover {
+                    background-color: $white;
+                    color: $green;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
