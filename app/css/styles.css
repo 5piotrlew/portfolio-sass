@@ -168,3 +168,26 @@ footer {
   padding: 0 80px; }
   footer p {
     margin: 0; }
+
+@media all and (max-width: 768px) {
+  section#contact .contact-data {
+    text-align: center; }
+    section#contact .contact-data .contact-social-icons a {
+      margin: 0;
+      display: inline-block; } }
+
+@media all and (max-width: 680px) {
+  section {
+    padding: 0 40px 50px; }
+    section #main-header .header-caption h1 {
+      font-size: 3em; }
+    section #main-header .header-caption h2 {
+      font-size: 1.5em; } }
+
+@media all and (max-width: 480px) {
+  section#contact .contact-data {
+    text-align: center; }
+    section#contact .contact-data .contact-social-icons a {
+      margin: 0; }
+  #skills #skills-icons .skills-icons-item {
+    width: 100%; } }
